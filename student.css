@@ -1,0 +1,35 @@
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+   /* align-items: center;
+   gap: 1cm; */
+    grid-auto-rows: 500px;
+    justify-content: space-between;
+    grid-column-gap:9cm ;
+    grid-row-gap:5cm ;
+   
+  
+}
+.grid1{
+    background-color: black;
+    border: 10px solid grey;
+    text-decoration-color: white;
+    color:white;
+    /* background-color: purple;
+    border: 10px solid pink;
+    text-decoration-color: aqua;
+    color:aqua;
+     */
+
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+
+    
+}
+img{
+    position: relative;
+    padding-right: 8cm;
+    height: 170px;
+    width: 170px;
+}
